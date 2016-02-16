@@ -1,0 +1,43 @@
+* {
+  font-style: sans-serif;
+}
+.active-users {
+  background: #3b5998 ;
+  color: white;
+}
+.active-user {
+  margin-right: 10px;
+
+}
+.active-users .active-user{
+  color: white;
+}
+
+.active-users .green-dot {
+  width: 8px;
+  height: 8px;
+  margin-right: 2px;
+  margin-left: 2px;
+  display: inline-block;
+  background-color: #2bb80e ;
+  border-radius: 50%;
+}
+
+.chat-log {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chat-message {
+  background: #f0f0f0;
+  margin: 5px;
+}
+.date {
+  font-size: 10px;
+  color: grey;
+}
+
+.not-delivered {
+  background-color: #faa3b3;
+}
